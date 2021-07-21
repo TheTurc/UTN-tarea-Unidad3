@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 2% 5% 5% 5%;
+    color: rgb(87, 84, 84);
+    position: relative;
+    width: 90%;
+    background-color: #f9f9f9;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23575454' fill-opacity='0.02' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.contenido {
+    border-radius: 35px 0px 35px 0px;
+    border: 2px solid #5771fd;
+    box-shadow: 10px 10px 10px #7f93ff;
+    margin: 0 20% 0 20%;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(#d9dfff, #5771fd);
+}
+
+header h2 {
+    text-align: left;
+    font-size: 35px;
+    margin: 20px;
+    padding: 20px;
+    text-shadow: 1px 1px 5px rgb(87, 84, 84);
+    text-decoration: underline;
+    animation: fadeInLeft;
+    animation-duration: .8s;
+    color: rgb(87, 84, 84);
+}
+
+
+.contenido form p input {
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2% 25% 0 25%;
+    text-align: left;
+    justify-items: center;
+}
+
+.sexo {
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+.sexo label, ul, li {
+    justify-content: left;
+    padding: 5px;
+}
+
+.hobbies {
+    margin: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.titulo {
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+.titulo select {
+    font-size: 15px;
+}
+
+.comentarios {
+    margin: 15px;
+    font-size: 20px;
+    padding: 5px;
+}
+.comentarios p {
+    padding: 15px;
+}
+.comentarios textarea {
+    margin: 10px;
+    block-size: 100px;
+}
+
+footer {
+    margin: 2% 45% 0 45%;
+    padding: 20px;
+    text-align: center;
+}
+footer a, h3 {
+    text-decoration: none;
+    color: rgb(87, 84, 84);
+}
+footer a h3:hover {
+    text-decoration: underline;
+
+}
